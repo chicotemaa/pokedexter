@@ -1,24 +1,71 @@
 body{
     font-family: Lato,sans-serif;
     margin: 0%;
+    padding: 0%;
     background-color: #c62828;
     
 }
 .header {
-    padding: 1%;
+   
+    width: 100%;
+    top: 0;
     text-align: center;
     background-color: #202124;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
   }
-  .container{
+.header img{
+  width: 40%;
+}
+  #container{
     background-color: #ef5350;
     text-align: center;
     margin: 0 auto;
     margin-top: 2%;
-    width: 80vw;
-    height: 65vh;
+    width: 74vw;
+    height: 60vh;
+    padding: 3%;
     color: white;
     font-size: 30px;
     border-radius: 50px;
   }
+  .titulo{
+    margin-top: -5px;
+  }
+  #instructivo{
+    margin-bottom: 0%;
+  }
+  #search{
+    width: 24vw;
+    height: 30px;
+    border-radius: 15px;
+  }
+  .btn{
+      background-color: rgb(236, 233, 37);
+      height: 35px;
+      border-radius: 15px;
+  }
+  .img{
+    float: left;
+    padding-left: 10px;
+    margin-left: 8%;
+    position: relative;
+    width: 30%;
+    background-color: #c62828;
+    border-radius: 15px;
+    margin-bottom: 2%;
+  }
+  .dato{
+    top: 0;
+    float: right;
+    width: 50%;
+    margin-bottom: 3%;
+    margin-top: 1%;   
+  }
+  footer {
+    color: #fff;
+    padding: 30px 0;
+    margin-top: 3%;
+    text-align: center;
+    background-color: #202124;
+}
