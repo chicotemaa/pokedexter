@@ -25,17 +25,18 @@ form.addEventListener('submit',(e)=>{
       search.style.display = 'none';
       instructivo.style.display = 'none';
        card.innerHTML=`
-       <div class='pokemon'>
+       
       <img class='img' src='${data.sprites.front_default}' alt='${data.name}'>
       <p class='dato' >Nombre: ${data.name}</p> 
       <p class='dato' >Tipo:  ${tipos}</p>
       <p class='dato' >Experiencia base: ${data.base_experience}</p>
       <p class='dato' >Altura: ${data.height}</p>
       <p class='dato' >Peso: ${data.weight}</p>
+      <br>
         <form>
           <button type='submit' class='btn consultar' >Volver a consultar</button>
         </form>
-      </div>
+      
       `;  
       container.style.height = '100%';
     })
